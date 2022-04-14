@@ -1,0 +1,16 @@
+.cols {
+  display: grid;
+  grid-template-columns: 30% 70%; 
+  gap: 3rem;
+}
+
+.playlist {
+  font-size: 14px;
+}
+
+.episode-details {
+  position: sticky;
+  top: 0;
+  overflow-y: scroll;
+  height: calc(100vh - 100px);
+}
